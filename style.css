@@ -1,0 +1,130 @@
+/*Colours and Fonts*/
+
+body{ background: rgb(196, 223, 223);
+	color: rgb(83,113,136);
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: center
+}
+
+h1{font-size: 30px;
+	font-weight: bold;
+	color:rgb(83, 113, 136);
+	text-align: center}
+
+h2, h3, h4, h5{font-size: 27px;
+			font-weight: 500;
+			color:rgb(83, 113, 136);
+			text-align: center}
+
+a{color: rgb(155, 164, 181);
+	transition: color 0.3s ease;
+	text-align: center
+}
+
+a:hover{color:rgb(241, 246, 249)}
+
+/*custom design with class(99% of design)*/
+.container{
+	width: 700px;
+	margin: 40px auto}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.box-white{
+	background-color: white;
+	padding: 30px;
+	box-shadow:0px 10px 30px rgb(83, 113, 136);
+	border-radius: 4px;
+	margin-right: 170px;
+	margin-left: 170px;
+	margin-top:25px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .box-white {
+    margin-right: 170px;
+	margin-left: 170px;
+	margin-top:25px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .box-white {
+    margin-right: 80px;
+	margin-left: 80px;
+	margin-top:25px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .box-white {
+    margin-right: 30px;
+	margin-left: 30px;
+	margin-top:25px;
+  }
+}
+
+.img-circle{
+	border-radius: 50%;
+	width:150px;
+}
+
+.btn-blue{
+	background-color:rgb(155, 164, 181);
+	color: white;
+	padding:15px 20px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.btn-blue:hover{
+	background-color: rgb(83, 113, 136);
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left:0px}
+
+.list-inline li{
+	display: inline;
+	padding: 10px}
+
+.list-inline i{
+	font-size:50px;
+}
+
+.list-inline i:hover{
+	color:black;
+}
+
+.fa-brands {
+	padding: 20px;
+}
+
+/*design adjustments using id (1% remaining)*/
+
+#introduction p{
+	margin-bottom: 50px;
+}
+
